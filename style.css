@@ -16,4 +16,104 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
+    width: 250px;
+    margin: auto;
+    padding: 0;
 }
+
+div {
+    background-color: #31363b;
+}
+
+.foto {
+    width: 250px;
+    max-width: 100%;
+}
+
+.logo {
+    background-color: #b92e81;
+    border-radius: 50%;
+    position: absolute;
+    left: 690px;
+    top: 140px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    color: #c9c9c9;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+ul a {
+    color: #c9c9c9;
+    text-decoration: none;
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.odkazy {
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio {
+    display: inline-block;
+    text-align: center;
+    border-top: 2px solid #3f464d;
+    border-bottom: 2px solid #3f464d;
+    padding: 12px 2px;
+    width: 100%;
+}
+
+.facebook {
+    display: inline-block;
+    text-align: center;
+    border-right: 2px solid #3f464d;
+    padding: 12px 18px;
+}
+
+.twitter {
+    display: inline-block;
+    text-align: center;    
+    padding: 12px 18px;
+}
+
+.portfolio a:hover,
+.portfolio a:focus,
+.portfolio a:active {
+   background-color: #e74c3c;
+   color: white;
+}
+
+.facebook a:hover,
+.facebook a:focus,
+.facebook a:active {
+    background-color: #3b5998;
+    color: white;
+}
+
+.twitter a:hover,
+.twitter a:focus,
+.twitter a:active {
+    background-color: #1da1f2;
+    color: white;
+}
+
+
+
+
